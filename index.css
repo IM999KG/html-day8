@@ -1,0 +1,62 @@
+.btn-outline-success{
+    color : skyblue;
+    border-color: skyblue;
+}
+
+.btn-outline-success:hover{
+    color : white;
+    background-color: skyblue;
+    border-color: skyblue;
+}
+
+.banner{
+  image-rendering: -webkit-optimize-contrast; /* chrome(비표준) */
+  image-rendering: crisp-edges;
+}
+
+footer{
+    background-color: rgb(174, 170, 170);
+    color: white;
+}
+
+.first-line{
+    border-bottom: 1px solid black;
+}
+
+.second-line a{
+    color:white;
+    text-decoration: none;
+}
+
+.third-line{
+    display: none;
+}
+
+@media screen and (max-width:48rem) {
+    .first-line{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:48rem) {
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid black;
+    }
+}
+
+@media screen and (max-width:48rem) {
+    .third-line{
+        display: block;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:48rem) {
+    .row{
+        align-items: center;
+    }
+}
